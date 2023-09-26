@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
-import NameList from './other/NameList';
+import Form from './other/Form';
+//import NameList from './other/NameList';
 //import ConditionalRendering from './other/ConditionalRendering';
 //import EventBind from './other/EventBind';
 
@@ -8,11 +9,14 @@ import NameList from './other/NameList';
 function App() {
     return (
     <div className="App">
+  <Form />
+
         {/* <EventBind /> */}
         {/* <ConditionalRendering /> */}
-        <NameList />
+        {/* <NameList /> */}
     </div>
   );
 }
 
 export default App;
+ 
