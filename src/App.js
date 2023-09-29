@@ -3,7 +3,7 @@ import './App.css';
 import Form from './other/Form';
 //import NameList from './other/NameList';
 //import ConditionalRendering from './other/ConditionalRendering';
-//import EventBind from './other/EventBind';
+import EventBind from './other/EventBind';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
   <Form />
 
-        {/* <EventBind /> */}
+        <EventBind />
         {/* <ConditionalRendering /> */}
         {/* <NameList /> */}
     </div>
